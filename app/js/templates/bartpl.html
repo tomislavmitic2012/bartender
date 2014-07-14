@@ -1,0 +1,140 @@
+  <div class="containter-fluid">
+    <div class="row" id="bar-stock">
+
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+	<h1 class="text-center">Orders</h1>
+      </div>
+    </div>
+
+    <div class="row center-block">
+      <div class="col-xs-12 col-sm-4 col-md-2 botMargin">
+	<div class="drinkHeader">
+	  Bloody Mary
+	</div>
+	<div class="drinkContent clearfix">
+	  <div class="drinkIngredients">
+	    <p>2 oz&nbsp;&nbsp;&nbsp;Vodka</p>
+	    <p>4 oz&nbsp;&nbsp;&nbsp;Bloody Mary Mix</p>
+	    <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cellery Stalk</p>
+	  </div>
+	  <div class="form-group form-group-lg">
+	    <div class="col-sm-2">
+	      <a href="#" class="plus" data-drink="bloodymary">+</a>
+	    </div>
+	    <div class="col-sm-8">
+	      <input type="text" class="form-control" placeholder="-" data-drink="bloodymary" disabled value="<% bloodymarycount != 0 ? print(bloodymarycount) : print('') %>" />
+	    </div>
+	    <div class="col-sm-2">
+	      <a href="#" class="minus" data-drink="bloodymary">-</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-2 botMargin">
+	<div class="drinkHeader">
+	  Martini
+	</div>
+	<div class="drinkContent clearfix">
+	  <div class="drinkIngredients">
+	    <p>2 oz&nbsp;&nbsp;&nbsp;Gin</p>
+	    <p>1 oz&nbsp;&nbsp;&nbsp;Dry Vermouth</p>
+	    <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olive</p>
+	  </div>
+	  <div class="form-group form-group-lg">
+	    <div class="col-sm-2">
+	      <a href="#" class="plus" data-drink="martini">+</a>
+	    </div>
+	    <div class="col-sm-8">
+	      <input type="text" class="form-control" placeholder="-" data-drink="martini" disabled value="<% martinicount != 0 ? print(martinicount) : print('') %>" />
+	    </div>
+	    <div class="col-sm-2">
+	      <a href="#" class="minus" data-drink="martini">-</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-2 botMargin">
+	<div class="drinkHeader">
+	  Margarita
+	</div>
+	<div class="drinkContent clearfix">
+	  <div class="drinkIngredients">
+	    <p>2 oz&nbsp;&nbsp;&nbsp;Tequila</p>
+	    <p>1 oz&nbsp;&nbsp;&nbsp;Orange Juice</p>
+	    <p>1 oz&nbsp;&nbsp;&nbsp;Agave Nectar</p>
+	    <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lime</p>
+	  </div>
+	  <div class="form-group form-group-lg">
+	    <div class="col-sm-2">
+	      <a href="#" class="plus" data-drink="margarita">+</a>
+	    </div>
+	    <div class="col-sm-8">
+	      <input type="text" class="form-control" placeholder="-" data-drink="margarita" disabled value="<% margaritacount != 0 ? print(margaritacount) : print('') %>" />
+	    </div>
+	    <div class="col-sm-2">
+	      <a href="#" class="minus" data-drink="margarita">-</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-2 botMargin">
+	<div class="drinkHeader">
+	  Screwdriver
+	</div>
+	<div class="drinkContent clearfix">
+	  <div class="drinkIngredients">
+	    <p>2 oz&nbsp;&nbsp;&nbsp;Vodka</p>
+	    <p>4 oz&nbsp;&nbsp;&nbsp;Orange Juice</p>
+	  </div>
+	  <div class="form-group form-group-lg">
+	    <div class="col-sm-2">
+	      <a href="#" class="plus" data-drink="screwdriver">+</a>
+	    </div>
+	    <div class="col-sm-8">
+	      <input type="text" class="form-control" placeholder="-" data-drink="screwdriver" disabled value="<% screwdrivercount != 0 ? print(screwdrivercount) : print('') %>"/>
+	    </div>
+	    <div class="col-sm-2">
+	      <a href="#" class="minus" data-drink="screwdriver">-</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-2 botMargin">
+	<div class="drinkHeader">
+	  Manhattan
+	</div>
+	<div class="drinkContent clearfix">
+	  <div class="drinkIngredients">
+	    <p>2 oz&nbsp;&nbsp;&nbsp;Whiskey</p>
+	    <p>1 oz&nbsp;&nbsp;&nbsp;Sweet Vermouth</p>
+	    <p>1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cherry</p>
+	  </div>
+	  <div class="form-group form-group-lg">
+	    <div class="col-sm-2">
+	      <a href="#" class="plus" data-drink="manhattan">+</a>
+	    </div>
+	    <div class="col-sm-8">
+	      <input type="text" class="form-control" placeholder="-" data-drink="manhattan" disabled value="<% manhattancount != 0 ? print(manhattancount) : print('') %>" />
+	    </div>
+	    <div class="col-sm-2">
+	      <a href="#" class="minus" data-drink="manhattan">-</a>
+	    </div>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-vs-10 col-sm-10 col-md-10">
+	<a href="#" id="place-order" class="btn btn-primary btn-lg btn-block active" role="button">Place Order</a>
+      </div>
+    </div>
+
+  </div>

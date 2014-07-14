@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <h1 class="text-center">Summary</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+    <p><% bloodymarycount != 0 ? print(bloodymarycount) : print('-') %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Bloody Mary</span></p>
+    <p><% martinicount != 0 ? print(martinicount) : print('-') %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Martini</span></p>
+    <p><% margaritacount != 0 ? print(margaritacount) : print('-') %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Margarita</span></p>
+    <p><% screwdrivercount != 0 ? print(screwdrivercount) : print('-') %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Screwdriver</span></p>
+    <p><% manhattancount != 0 ? print(manhattancount) : print('-') %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Manhattan</span></p>
+    <hr />
+    <p><% print(bloodymarycount + martinicount + margaritacount + screwdrivercount + manhattancount) %>&nbsp;&nbsp;&nbsp;&nbsp;<span class="purple">Total</span></p>
+  </div>
+</div>

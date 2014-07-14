@@ -1,0 +1,84 @@
+@font-face {
+  font-family: SourceSansPro-ExtraLight;
+  src: url('fonts/custom/SourceSansPro-ExtraLight.ttf');
+}
+
+html, body {
+  background: #000000;
+  color: #ffffff;
+}
+
+.table > tbody > tr:first-child > td {
+  border-top: none;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: SourceSansPro-ExtraLight;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.purple {
+  color: #90819b;
+  font-weight: bold;
+}
+
+.drinkHeader {
+  background: #211d23;
+  margin: 0;
+  padding: 5px 3px;
+  font-size: 15px;
+  color: #90819b;
+}
+
+.drinkContent {
+  background: #37373a;
+  padding: 5px 3px;
+  color: #807d89;
+}
+
+.drinkIngredients {
+  min-height: 125px;
+}
+
+.botMargin {
+  margin: 0 0 10px 0;
+}
+
+// Classes
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+a.plus:link, a.plus:visited, a.plus:active, a.plus:hover {
+  text-decoration: none;
+  color: #27ae60;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a.minus:link, a.minus:visited, a.minus:active, a.minus:hover {
+  text-decoration: none;
+  color: #c0392b;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a.btn-primary:hover, a.btn-primary:focus, a.btn-primary:active, a.btn-primary.active {
+  background-color: #90819b;
+  border-color: #90819b;
+}
