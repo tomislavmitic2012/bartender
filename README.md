@@ -1,4 +1,4 @@
-npm install -a grunt-client
-npm install
-npm run-script grunt
+npm install -a grunt-client<br />
+npm install<br />
+npm run-script grunt<br />
 npm start
